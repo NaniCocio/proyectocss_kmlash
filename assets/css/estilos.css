@@ -1,0 +1,100 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+body { 
+    background-color: #fdf9ea;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #5b4f47; 
+}
+
+.barra header{
+    margin: .5rem;
+    background-color: #f1ded1;
+    background-image: url("../imgs/icon.png");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+    
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 300;
+    text-shadow: .1rem .1rem .2rem #333333 ;
+    margin-left: 8.5rem;
+    
+}
+
+h2{
+    font-weight: 500;
+    font-size: 3rem;
+    margin: 1rem;
+    text-shadow: .1rem .1rem .2rem #c5c5c5 ;
+    text-align: center;
+}
+
+h4{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-shadow: .1rem .1rem .2rem #c5c5c5 ;
+}
+
+p{
+    font-size: 1.7rem;
+}
+
+nav{
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 1rem;
+}
+a{
+    text-decoration: none;
+    text-shadow: .1rem .1rem .2rem #c5c5c5 ;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #5b4f47;
+}
+
+.contenedor{
+    width: 95%;
+    max-width: 120rem ;
+    margin: 0 auto;
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+}
+
+.servicios-contenido {
+    margin: 1rem;
+    justify-content: center;
+    text-align: center;  
+    padding: 1rem;
+    
+}
+
+img{
+    height: 15rem;
+    border-radius: 2rem;
+}
+
+footer{
+    background-color:#dbbca7;
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: .1rem .1rem .2rem #333333;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+}
